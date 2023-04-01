@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY RESTAURANT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+    <!--animation on scroll css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--font awsome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="banner-layout">
+            <!--navbar start here-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><i class="fa-solid fa-utensils"></i>
+                    restaurant</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 ">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">service</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">booking</a></li>
+                                <li><a class="dropdown-item" href="#">our team</a></li>
+                                <li><a class="dropdown-item" href="#">testomanial</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">service</a>
+                        </li>
+                        <li class="nav-item">
+                            <btn type="btn" class="btn bg-warning">
+                                BOOK A TABLE
+                            </btn>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--navbar end here-->
+            <!-- banner slider start here-->
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active d-flex justify-content-md-between">
+                        <div class="heading">
+                            <h1 class="pt-3 fs-1 text-white">
+                                enjoy our <br> delicios meal
+                            </h1> <br>
+                            <p class="pt-3 text-white fs-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
+                                Aliqu diam <br>
+                                amet diam et
+                                eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita <br> duo justo magna
+                                dolore
+                                erat amet</p> <br>
+                            <button type="button" class="btn btn-warning btn-lg">BOOK A TABLE</button>
+                        </div>
+                        <div class="spin-image">
+                            <img src="img/hero.png" class="d-block w-100" alt="hero" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--banner slider end here-->
+        <!--info section start here-->
+        <div class="row mt-5">
+            <div class="col-md-3">
+                <!--first info card-->
+                <div class="card" style="width:15rem;">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h1><i class="fa-solid fa-user text-warning"></i></h1>
+                            <div class="card-text">
+                                <h4>master chef</h4>
+                                <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed <br> clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <!--restaurant  info card-->
+                <div class="card" style="width:15rem;">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h1><i class="fa-solid fa-utensils text-warning"></i></h1>
+                            <div class="card-text">
+                                <h4>quality food</h4>
+                                <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed <br> clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <!--third info card-->
+                <div class="card " style="width:15rem;">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h1><i class="fa-solid fa-cart-plus text-warning"></i></h1>
+                            <div class="card-text">
+                                <h4>order online</h4>
+                                <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed <br> clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <!--fourth info card-->
+                <div class="card" style="width:15rem;">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h1><i class="fa-solid fa-headphones text-warning"></i></h1>
+                            <div class="card-text">
+                                <h4>24/7 service</h4>
+                                <p>Diam elitr kasd sed at elitr <br> sed ipsum justo dolor sed <br> clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--info section end -->
+        <!--about section start-->
+        <div class="row mt-5">
+            <div class="col-md-6  ">
+                <div class="row " id="about-images">
+                    <div class="col-md-5">
+                        <img src="img/about-1.jpg" alt="aout-us" class="img-fluid" data-aos="zoom-in"
+                            data-aos-duration="1500">
+                    </div>
+
+                    <div class="col-md-5 ">
+                        <img src="img/about-2.jpg" alt="aout-us" class="img-fluid" data-aos="zoom-in"
+                            data-aos-duration="1500">
+                    </div>
+
+                    <div class="col-md-5  mt-2">
+                        <img src="img/about-3.jpg" alt="aout-us" class="img-fluid" data-aos="zoom-in"
+                            data-aos-duration="1500">
+                    </div>
+
+                    <div class="col-md-5 mt-2 ">
+                        <img src="img/about-4.jpg" alt="aout-us" class="img-fluid" data-aos="zoom-in"
+                            data-aos-duration="1500">
+                    </div>
+                </div>
+            </div>
+            <!--about imagesw end-->
+            <!--about us article clone start-->
+
+            <div class="col-md-6 ">
+                <h1>welcome to <span class="text-warning fs-1"><i class="fa-solid fa-utensils"></i></span> restaurant</h1>
+
+                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam <br> amet diam et eos
+                    erat
+                    ipsum et lorem et sit, sed stet lorem sit.</p>
+
+                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam <br> amet diam et eos.
+                    Clita
+                    erat ipsum et lorem et sit, sed stet lorem sit clita <br> duo justo magna dolore erat amet</p>
+                <div class="row">
+                    <div class="col-md-6 d-flex">
+                        <div class="col-md-2">
+                            <h1 class="text-warning">15</h1>
+                        </div>
+                        <div class="col-md-10">
+                            <h3 class="text-start">YEARS OF EXPERIENCE</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex">
+                        <div class="col-md-2">
+                            <h1 class="text-warning">15</h1>
+                        </div>
+                        <div class="col-md-10">
+                            <h3 class="text-start">YEARS OF EXPERIENCE</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!--food menu section start here-->
+            <div class="container-fluid">
+                <div class="row mt-5 " data-aos="flip-left" data-aos-duration="1500">
+                    <div class="col-lg-12">
+                        <h5 class="text-center fs-1">food menu</h5>
+                        <h1 class="text-center fs-2">most popular items</h1>
+                    </div>
+                    <div class="col-md-12 d-flex justify-content-center mt-5">
+                        <div class="food-title d-flex ">
+                            <i class="fa-solid fa-mug-hot pt-2 fs-1 text-warning"></i>
+                            <div class="title ">
+                                <p class="ps-2">popular <br>breakfast</p>
+                            </div>
+                        </div>
+                        <div class="food-title d-flex ms-5">
+                            <i class="fa-solid fa-burger pt-2 fs-1 text-warning"></i>
+                            <div class="title ">
+                                <p class="ps-2">special <br>lunch</p>
+                            </div>
+                        </div>
+                        <div class="food-title d-flex ms-5  ">
+                            <i class="fa-solid fa-utensils pt-2 fs-1 text-warning"></i>
+                            <div class="title ">
+                                <p class="ps-2">lovely <br>dinner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--menu items-->
+            <div class="container-fluid">
+                <div class="row justify-content-around mt-5">
+                    <!--first menu-->
+                    <div class="col-md-5" data-aos="fade-up-right" data-aos-duration="1500">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/menu-1.jpg" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>CHICKEN BURGER</h4>
+                                <p>this is chicken burger</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--second menu-->
+                    <div class="col-md-5" data-aos="fade-up-left" data-aos-duration="1500">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/menu-2.jpg" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>CHICKEN BURGER</h4>
+                                <p>this is chicken burger</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--third menu-->
+                    <div class="col-md-5 mt-5" data-aos="fade-up-right" data-aos-duration="1500">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/menu-3.jpg" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>CHICKEN BURGER</h4>
+                                <p>this is chicken burger</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--fourth menu-->
+                    <div class="col-md-5 mt-5" data-aos="fade-up-left" data-aos-duration="1500">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/menu-4.jpg" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>CHICKEN BURGER</h4>
+                                <p>this is chicken burger</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--fifth menu-->
+                    <div class="col-md-5 mt-5" data-aos="fade-up-right" data-aos-duration="1500">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/menu-5.jpg" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>CHICKEN BURGER</h4>
+                                <p>this is chicken burger</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--sixth menu-->
+                    <div class="col-md-5 mt-5" data-aos="fade-up-left" data-aos-duration="1500">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/menu-6.jpg" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>CHICKEN BURGER</h4>
+                                <p>this is chicken burger</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--seventh menu-->
+                    <div class="col-md-5 mt-5" data-aos="fade-up-right" data-aos-duration="1500">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/menu-7.jpg" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>CHICKEN BURGER</h4>
+                                <p>this is chicken burger</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--eighth menu-->
+                    <div class="col-md-5 mt-5" data-aos="fade-up-left" data-aos-duration="1500">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/menu-8.jpg" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <h4>CHICKEN BURGER</h4>
+                                <p>this is chicken burger</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--menu section end here-->
+            <!--reservation start here-->
+            <div class="container-fluid mt-5 bg-dark">
+                <div class="row">
+                    <div class="col-md-6" data-aos="fade-bottom" data-aos-duration="1500">
+                        <img src="img/video.jpg" alt="video-image" class="img-fluid" data-aos="fade-bottom"
+                            data-aos-duration="1500">
+                    </div>
+                    <div class="col-md-6 text-white text-center" data-aos="fade-top" data-aos-duration="1500">
+                        <h6>reservation</h6 data-aos="fade-top" data-aos-duration="1500">
+                        <h1>book a table online</h1 data-aos="fade-top" data-aos-duration="1500">
+                        <div class="row mt-5" data-aos="fade-top" data-aos-duration="1500">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="First name"
+                                    aria-label="First name">
+                            </div>
+                            <div class="col-md-6 mt-5" data-aos="fade-top" data-aos-duration="1500">
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <input type="date" class="form-control" placeholder="select date">
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <select class="form-select" id="autoSizingSelect">
+                                    <option selected>NO OF PEOPLE</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12 mt-5">
+                                <input type="textarea" class="form-control p-md-4 " placeholder="special request">
+                            </div>
+                            <div class="col-md-12 mt-5">
+                                <button type="submit" class="btn  btn-warning">BOOK NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--reservetion section end-->
+            <!--team members section start here-->
+            <div class="container-fluid mt-5 " id="team-member">
+                <div class="row justify-content-around ">
+                    <div class="col-md-2" data-aos="fade-right" data-aos-duration="1500">
+                        <div class="card">
+                            <img src="img/team-1.jpg" alt="team member" class="img-fluid">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">
+                                    FULL NAME
+                                </h6>
+                                <p class="card-text">
+                                    DESIGNATION
+                                </p>
+                                <div class="card-icon fs-3 text-warning">
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--second card start here-->
+                    <div class="col-md-2">
+                        <div class="card">
+                            <img src="img/team-2.jpg" alt="team member" class="img-fluid">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">
+                                    FULL NAME
+                                </h6>
+                                <p class="card-text">
+                                    DESIGNATION
+                                </p>
+                                <div class="card-icon fs-3 text-warning">
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--third card start here-->
+                    <div class="col-md-2">
+                        <div class="card">
+                            <img src="img/team-3.jpg" alt="team member" class="img-fluid">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">
+                                    FULL NAME
+                                </h6>
+                                <p class="card-text">
+                                    DESIGNATION
+                                </p>
+                                <div class="card-icon fs-3 text-warning">
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--fourth card start here-->
+                    <div class="col-md-2 " data-aos="fade-left" data-aos-duration="1500">
+                        <div class="card">
+                            <img src="img/team-4.jpg" alt="team member" class="img-fluid">
+                            <div class="card-body text-center">
+                                <h6 class="card-title">
+                                    FULL NAME
+                                </h6>
+                                <p class="card-text">
+                                    DESIGNATION
+                                </p>
+                                <div class="card-icon fs-3 text-warning ">
+                                    <h3 class="">
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-square-instagram"></i>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--team member section end here-->
+            <!--footer start here-->
+            <div class="container-fluid bg-dark text-white">
+                <div class="row justify-content-around mt-5 pt-5 pb-5">
+                    <div class="col-md-2 pt-2">
+                        <h6>company</h6>
+                        <ul>
+                            <li>About US</li>
+                            <li>Contact Us</li>
+                            <li>REservation</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms&conditions</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 pt-2">
+                        <h5>contact</h5>
+                        <p>123street,new york,USA</p>
+                        <p>+012 3456 7890</p>
+                        <p>info@ example.com</p>
+
+                    </div>
+                    <div class="col-md-2 pt-2">
+                        <h6>opening</h6>
+                        <h5> Monday-Saturday</h5>
+                        <p>09AM-09PM</p>
+                        <p>Sunday</p>
+                        <p>10AM-08PM</p>
+                    </div>
+                    <div class="col-md-2 pt-2">
+                        <h6>newsletter</h6>
+                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                        <input type="email" class="form-control" placeholder="enter-your-email">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <!--animation on scroll js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
